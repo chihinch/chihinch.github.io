@@ -1000,6 +1000,11 @@ header h6 + p {
 header.major h2 {
   color: #4a8cca;
   font-size: 3.5em; }
+  header.major h2 + a {
+    color: #777;
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-top: -0.75em; }
   header.major h2 + p {
     color: #777;
     font-size: 1.75em;
@@ -1646,10 +1651,11 @@ input[type="button"],
     display: inline-block;
     vertical-align: middle;
     width: 50%; }
-    .features article .inner > :last-child {
-      margin-bottom: 0; }
     .features article .inner .project-links {
       padding-bottom: 0.25em; }
+    .features article .inner p {
+      margin-top: 1em;
+      margin-bottom: 0; }
 
 /* Header */
 #header {

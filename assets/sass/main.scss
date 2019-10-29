@@ -363,6 +363,13 @@
 				color: _palette(accent1, bg);
 				font-size: 3.5em;
 
+				& + a {
+					color: _palette(fg-bold);
+					font-size: 1.75em;
+					font-weight: _font(weight-bold);
+					margin-top: -0.75em;
+				}
+
 				& + p {
 					color: _palette(fg-bold);
 					font-size: 1.75em;
@@ -1153,12 +1160,13 @@
 				vertical-align: middle;
 				width: 50%;
 
-				> :last-child {
-					margin-bottom: 0;
-				}
-
 				.project-links {
 					padding-bottom: 0.25em;
+				}
+
+				p {
+					margin-top: 1em;
+					margin-bottom: 0;
 				}
 			}
 		}
