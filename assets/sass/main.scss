@@ -891,7 +891,7 @@
 		padding-left: 0;
 
 		li {
-			@include icon;
+			// @include icon;
 			display: inline-block;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 			padding: 0.35em 0 0 3.5em;
@@ -899,18 +899,27 @@
 			vertical-align: top;
 			width: 48%;
 
-			&:before {
-				background: _palette(accent1, bg);
-				border-radius: 100%;
-				color: _palette(accent1, fg-bold);
+			i {
+				// background: _palette(accent1, bg);
+				// border-radius: 100%;
+				// color: _palette(accent1, fg-bold);
 				display: block;
-				height: 2.5em;
+				font-size: 45px;
 				left: 0;
-				line-height: 2.5em;
+				// line-height: 2.5em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.5em;
+				// width: 2.5em; 
+			}
+
+			svg {
+				display: block;
+				position: absolute;
+				left: 0;
+				top: 0;
+				height: 45px;
+				width: 45px;
 			}
 		}
 	}

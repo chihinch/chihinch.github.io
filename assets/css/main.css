@@ -1434,36 +1434,26 @@ ul.feature-icons {
   list-style: none;
   padding-left: 0; }
   ul.feature-icons li {
-    text-decoration: none;
     display: inline-block;
     margin: 0 0 1.6875em 0;
     padding: 0.35em 0 0 3.5em;
     position: relative;
     vertical-align: top;
     width: 48%; }
-    ul.feature-icons li:before {
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      line-height: 1;
-      text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
-      font-weight: 400; }
-    ul.feature-icons li:before {
-      background: #4a8cca;
-      border-radius: 100%;
-      color: #ffffff;
+    ul.feature-icons li i {
       display: block;
-      height: 2.5em;
+      font-size: 45px;
       left: 0;
-      line-height: 2.5em;
       position: absolute;
       text-align: center;
+      top: 0; }
+    ul.feature-icons li svg {
+      display: block;
+      position: absolute;
+      left: 0;
       top: 0;
-      width: 2.5em; }
+      height: 45px;
+      width: 45px; }
 
 /* Icons */
 ul.icons {
