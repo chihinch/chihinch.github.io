@@ -1648,6 +1648,8 @@ input[type="button"],
     width: 50%; }
     .features article .inner > :last-child {
       margin-bottom: 0; }
+    .features article .inner .project-links {
+      padding-bottom: 0.25em; }
 
 /* Header */
 #header {
