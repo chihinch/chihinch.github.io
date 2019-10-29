@@ -1467,6 +1467,9 @@ ul.icons {
       padding-right: 0 !important; }
     ul.icons li .icon:before {
       font-size: 1.25em; }
+    ul.icons li .label {
+      display: inline-block;
+      padding-left: 0.25em; }
 
 /* Table */
 .table-wrapper {
