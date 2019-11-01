@@ -1721,6 +1721,7 @@ input[type="button"],
       #header > footer .icons li a {
         color: #b7d1ea; }
     #header > footer #status-icon {
+      color: #b7d1ea;
       padding-right: 0.25em; }
   #header > nav {
     -moz-flex-grow: 1;
