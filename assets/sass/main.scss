@@ -952,6 +952,10 @@
 				}
 			}
 
+			.fa-heartbeat::before {
+				margin-right: 0.25em;
+			}
+
 			.label {
 				display: inline-block;
 				padding-left: 0.25em;
@@ -1248,17 +1252,10 @@
 			.icons {
 				margin: 0;
 
-				li {
 					a {
 						color: _palette(header, fg-light);
 					}
 				}
-			}
-
-			#status-icon {
-				color: _palette(header, fg-light);
-				padding-right: 0.25em;
-			}
 		}
 
 		> nav {

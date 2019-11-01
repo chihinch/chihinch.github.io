@@ -1472,6 +1472,8 @@ ul.icons {
       padding-right: 0 !important; }
     ul.icons li .icon:before {
       font-size: 1.25em; }
+    ul.icons li .fa-heartbeat::before {
+      margin-right: 0.25em; }
     ul.icons li .label {
       display: inline-block;
       padding-left: 0.25em; }
@@ -1718,11 +1720,8 @@ input[type="button"],
     width: 100%; }
     #header > footer .icons {
       margin: 0; }
-      #header > footer .icons li a {
+      #header > footer .icons a {
         color: #b7d1ea; }
-    #header > footer #status-icon {
-      color: #b7d1ea;
-      padding-right: 0.25em; }
   #header > nav {
     -moz-flex-grow: 1;
     -webkit-flex-grow: 1;
